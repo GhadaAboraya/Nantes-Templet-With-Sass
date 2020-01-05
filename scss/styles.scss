@@ -1,0 +1,75 @@
+/*variables*/
+$mainColor : white;
+$secondColor : black;
+$thirdColor : #6e6969;
+$fourthColor : darkgray;
+$backGroundColor : #e2dedec7;
+$text : center;
+$font : sans-serif;
+$weight : bold;
+$padding : 50px 0;
+
+
+
+
+/*imports*/
+@import 'Partials/globals';
+@import 'Partials/header';
+@import 'Partials/hola';
+@import 'Partials/about';
+@import 'Partials/feature';
+@import 'Partials/portfolio';
+@import 'Partials/part';
+@import 'Partials/team';
+@import 'Partials/contact';
+@import 'Partials/footer';
+
+
+
+
+
+/*Start Responsive*/
+/*For Mobile*/
+@media (max-width:767px) {
+    @import 'Responsive/ForMobile/head';
+    @import 'Responsive/ForMobile/hola';
+    @import 'Responsive/ForMobile/about';
+    @import 'Responsive/ForMobile/feature';
+    @import 'Responsive/ForMobile/portfolio';
+    @import 'Responsive/ForMobile/part';
+    @import 'Responsive/ForMobile/team';
+    @import 'Responsive/ForMobile/contact';
+}
+
+
+
+/*For Tablet*/
+@media (min-width:768px) and (max-width:991px) {
+    @import 'Responsive/ForTablet/head';
+    @import 'Responsive/ForTablet/hola';
+    @import 'Responsive/ForTablet/about';
+    @import 'Responsive/ForTablet/feature';
+    @import 'Responsive/ForTablet/portfolio';
+    @import 'Responsive/ForTablet/part';
+    @import 'Responsive/ForTablet/team';
+    @import 'Responsive/ForTablet/contact';
+}
+
+
+
+/* for Laptop */
+@media(min-width: 992px) and (max-width: 1199px) {
+    @import 'Responsive/ForLptop/head';
+    @import 'Responsive/ForLptop/hola';
+    @import 'Responsive/ForLptop/about';
+    @import 'Responsive/ForLptop/feature';
+    @import 'Responsive/ForLptop/contact';
+}
+
+
+
+/*for PC*/
+@media(min-width: 1199px) and (max-width:1370px ) {
+    @import 'Responsive/ForPc/about';
+    @import 'Responsive/ForPc/feature';
+}

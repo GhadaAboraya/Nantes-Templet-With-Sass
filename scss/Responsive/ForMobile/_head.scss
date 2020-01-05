@@ -1,0 +1,50 @@
+@mixin bg ($prop) {
+    -webkit-background-size: $prop;
+    -moz-background-size: $prop;
+    -ms-background-size: $prop;
+    -o-background-size: $prop;
+    background-size: $prop;
+}
+
+.head{
+    background-image: url(../image/slider-1.jpg);
+    @include bg (cover);
+    .nav {
+        padding: 10px 0;
+        background-color: $mainColor;
+        border-bottom: 1px solid #94918db0;
+        .logo {
+            img {
+                width: 100%;
+                padding: 15px 0;
+            }
+        }
+        .links {
+            width: 100%;
+            margin: 0px auto;
+            ul{
+                margin: 5px 0;
+                li {
+                    margin: 0px 5px;
+                }
+            }
+        }
+    }
+    .intro {
+        text-align: $text;
+        padding:$padding;
+        h4 {
+            font-weight: 100;
+            font-size: 30px;
+            color: $mainColor;
+        }
+        p {
+            color: $mainColor;
+            font-size: 35px;
+            font-weight: $weight;
+            width: 100%;
+            padding:10px 0;
+        }
+    }
+} 
+    /*end nav*/

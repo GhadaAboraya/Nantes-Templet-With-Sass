@@ -1,0 +1,12 @@
+.feature {
+    .row {
+        .col {
+            border: 2px solid gainsboro;
+            width: 26%;
+            margin: 15px;
+            float: left;
+            text-align: $text;
+            padding: 25px 10px;
+        }
+    }
+}

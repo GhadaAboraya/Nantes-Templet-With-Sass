@@ -1,0 +1,18 @@
+.feature {
+    padding: 5px 0;
+    .row {
+        padding: 2px 0;
+        .col {
+            border: 1px solid gainsboro;
+            width: 30%;
+            margin: 5px 2px;
+            float: left;
+            text-align: $text;
+            padding: 25px 0;
+            p {
+                font-size: 15px;
+                padding: 10px 5px;
+            }
+        }
+    }
+}

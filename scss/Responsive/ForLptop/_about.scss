@@ -1,0 +1,22 @@
+.about {
+    .row {
+        .col {
+            padding: 25px 0px;
+            border: 1px solid gainsboro;
+            width: 42%;
+            float: left;
+            margin: 1%;
+            img {
+                width: 40%;
+                float: left;
+                padding: 0 8px;
+            }
+            .info {
+                width: 50%;
+                float: left;
+                text-align: center;
+                padding: 10px 0;
+            }
+        }
+    }
+} 

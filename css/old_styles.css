@@ -1,0 +1,1040 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+
+
+
+.head{
+    background-image: url(../image/slider-1.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* height: 110vh; */
+}
+.head .nav {
+    padding: 25px 0;
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #94918db0;
+}
+.head .nav .logo {
+    float: left;
+    width: 25%;
+    margin-top: -15px;
+}
+.head .nav .logo img{
+    width: 60%;
+    padding: 2px 0;
+}
+.head .nav .links{
+    float: left;
+    width: 75%;
+}
+.head .nav .links ul{
+    float: right;
+}
+.head .nav .links ul li{
+    margin: 0 15px;
+    display: inline-block;
+}
+.head .nav .links ul li a {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: black;
+}
+.head .intro {
+    text-align: center;
+    padding-top: 100px;
+}
+.head .intro h4 {
+    font-weight: 100;
+    font-size: 50px;
+    color: white;
+}
+.head .intro p {
+    color: white;
+    font-size: 100px;
+    font-weight: bold;
+    width: 100%;
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+.hola {
+    background-color: #fcbe03;
+    padding: 45px 0;
+}
+.hola h5 {
+    float: left;
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: serif;
+} 
+.hola button {
+    float: right;
+    width: 20%;
+    background-color: #f0f8ff12;
+    color: white;
+    font-weight: bold;
+    border-color: #f6f6f6;
+    font-size: 20px;
+    border-style: double;
+    padding: 10px 0;
+}
+
+
+
+
+
+
+
+
+.about {
+    padding: 50px 0;
+    background-color: #e2dedec7;
+}
+.about h2 {
+
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: darkgray;
+}
+.about .p {
+    font-size: 20px;
+    padding-top: 40px;
+    text-align: center;
+    color: #454343;
+}
+.about .bold {
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+}
+.about .row {
+    padding-top: 85px;
+    margin: 5px 5px;
+}
+.about .row .col {
+    padding: 25px 18px;
+    border: 2px solid gainsboro;
+    width: 44%;
+    float: left;
+    margin: 1%;
+}
+.about .row .col img {
+    width: 40%;
+    float: left;
+}
+.about .row .col .info {
+    width: 55%;
+    float: left;
+    text-align: center;
+    padding: 20px 0;
+}
+.about .row .col h6 {
+    font-size: 19px;
+}
+.about .row .col .info p{
+    font-size: 15px;
+    padding: 15px 0;
+}
+
+
+
+
+
+.feature{
+    padding: 50px 0 ;
+}
+.feature h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: darkgray;
+}
+.feature .row {
+    margin: 15px 0 ;
+}
+.feature .row .col {
+    border: 2px solid gainsboro;
+    width: 30%;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    padding: 25px 0 ;
+}
+.feature .row .col img {
+width: 50%;
+}
+.feature .row .col h2 {
+    font-size: 20px;
+    padding: 20px 0;
+}
+.feature .row .col p {
+    font-size: 15px;
+}
+
+
+
+
+
+
+.portfolio {
+    background-color: #e2dedec7;
+    padding: 50px 0;
+}
+.portfolio h2{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: darkgray;
+}
+.portfolio p {
+    font-size: 20px;
+    text-align: center;
+    padding: 30px 0;
+}
+.portfolio .row .col img{
+    width: 90%;
+}
+.portfolio .row .col{
+    width: 33.3333%;
+    float: left;
+    text-align: center;
+}
+
+
+
+
+
+.part{
+    margin-top: 50px;
+    padding-top: 15px;
+}
+.part h2{
+     padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: darkgray;
+}
+.part p{
+    font-size: 20px;
+    width: 65%;
+    padding-left: 216px;
+    text-align: center;
+}
+.part img {
+    margin-left: 16px;
+    float: left;
+    width: 15%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+.team{
+    background-color: #e2dedec7;
+}
+.team h2{
+    padding: 50px 0;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: darkgray;
+}
+.team p{
+    font-size: 20px;
+    text-align: center;
+}
+.team .row {
+    margin: 15px 0px;
+    padding: 40px 0;
+}
+.team .row .col {
+    border: 2px solid gainsboro;
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 5px 5px;
+}
+.team .row .col img{
+    width: 100%;
+}
+.team .row .col h3 {
+    font-size: 15px;
+    padding-top: 20px;
+    color: #989090;
+}
+.team .row .col .pp {
+    font-size: 20px;
+    padding-top: 8px;
+}
+.team .row .col .ppp {
+    font-size: 16px;
+    padding: 20px 15px;
+}
+
+
+
+
+
+
+
+
+
+.contact {
+    background-color: #444141;
+    padding-top: 50px;
+}
+.contact h2 {
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 50px;
+}
+.contact p {
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 20px;
+}
+.contact .row{
+   margin: 20px 5px;
+}
+.contact .row .col {
+    border: 2px solid  #444242;;
+    width: 30%;
+    text-align: center;
+    float: left;
+    margin: 10px 10px;
+    padding: 20px 0;
+}
+.contact .row .col h4{
+    color: white;
+    padding: 20px 0px;
+}
+.contact .row .col p{
+    font-size: 18px;
+    color: white;
+}
+.contact .row .col input {
+    width: 45%;
+    margin: 10px 5px;
+    height: 30px;
+}
+.contact .row .col textarea {
+    width: 96%;
+    height: 140px;
+}
+.contact .row .col button{
+    width: 150px;
+    height: 54px;
+    background-color: #fcbe03;
+    color: white;
+    border-style: double;
+}
+
+
+
+
+
+
+
+
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+
+
+
+/*  Start Responsive */
+/* for Mobile */
+@media (max-width: 767px) {
+    
+    /*start nav*/
+    .head {
+        background-image: url(../image/slider-1.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    .head .nav {
+        padding: 10px 0;
+        background-color: #fdfdfd;
+        border-bottom: 1px solid #94918db0;
+    }
+    .head .nav .logo img{
+        width: 100%;
+        padding: 15px 0;
+    }
+    .head .nav .links {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .head .nav .links ul {
+        margin: 5px 0;
+    }
+    .head .nav .links ul li {
+        margin: 0px 5px;
+    }
+    /*end nav*/
+    
+        
+    /*start intro*/
+    .head .intro {
+    text-align: center;
+    padding-top: 50px;
+}
+    .head .intro h4 {
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+}
+    .head .intro p {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px 0;
+}
+    /*end intro*/
+ 
+
+    
+    /*start hola*/
+    .hola {
+    background-color: #fcbe03;
+    padding: 15px 0;
+}
+.hola h5 {
+    color: whitesmoke;
+    font-size: 18px;
+    font-family: serif;
+    text-align: center;
+}
+.hola button {
+    width: 100%;
+    background-color: #f0f8ff12;
+    color: white;
+    font-weight: bold;
+    border-color: #f6f6f6;
+    font-size: 20px;
+    padding: 7px 0;
+    margin: 10px 0;
+}
+    /*end hola*/
+    
+    
+    
+    
+    /*start about us*/
+    .about {
+    padding: 20px 0;
+    background-color: #e2dedec7;
+}
+    .about h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    color: darkgray;
+}
+    .about .p {
+    font-size: 16px;
+    padding-top: 30px;
+    text-align: center;
+    color: #454343;
+}
+    .about .bold {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+    .about .row {
+        padding-top: 60px;
+        margin: 0 auto;
+        width: 100%;
+}
+    .about .row .col {
+        border: 2px solid gainsboro;
+        width: 95%;
+        float: none;
+        margin: 0%;
+}
+    .about .row .col img {
+    width: 100%;
+}
+    .about .row .col .info {
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 20px 0;
+}
+    .about .row .col .info p{
+    font-size: 15px;
+    padding: 15px 0;
+}
+    /*end about us*/
+    
+    
+
+
+    /*start feature*/
+    .feature {
+    padding: 20px 0;
+}
+    .feature h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: darkgray;
+}
+    .feature .row .col {
+    border: 2px solid gainsboro;
+    width: 100%;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    padding: 25px 0;
+}
+    .feature .row .col h2{
+        padding: 15px 0;
+    }
+    .feature .row .col p {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+    /*end feature*/
+    
+    
+    
+    
+    /*start portfolio*/
+    .portfolio {
+    background-color: #e2dedec7;
+    padding: 20px 0;
+}
+    .portfolio h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: darkgray;
+}
+    .portfolio p {
+        font-size: 18px;
+        text-align: center;
+}
+    .portfolio .row {
+    margin: 25px 0;
+} 
+    /*end portfolio*/
+    
+   
+    
+    /*start part*/
+    .part {
+    padding-top: 20px;
+}
+    .part h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: darkgray;
+}
+    .part p {
+        font-size: 18px;
+        width: 100%;
+        padding: 12px 0;
+    }
+    .part img {
+        margin-left: 30px;
+        float: left;
+        width: 25%;
+        margin-top: 40px;
+        margin-bottom: 25px;
+    }
+    /*end part*/
+    
+
+    /*start team*/
+    .team {
+    background-color: #e2dedec7;
+    padding: 15px 0;
+}
+.team h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: darkgray;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+.team p {
+    font-size: 17px;
+    text-align: center;
+    padding: 12px 0;
+}
+    .team .row .col {
+    border: 2px solid gainsboro;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 5px 5px;
+}
+    /*end team*/
+    
+
+    
+    /*start contact us*/
+    .contact {
+    background-color: #444141;
+    padding-top: 20px;
+}
+    .contact h2 {
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+}
+.contact p {
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 20px;
+}
+    .contact .row .col {
+    border: 2px solid #474141;
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin: 10px 10px;
+}
+    .contact .row .col textarea {
+    width: 100%;
+    height: 140px;
+}
+.contact .row .col input {
+    width: 100%;
+    margin: 10px 5px;
+    height: 30px;
+}
+    /*end contact us*/
+}
+
+
+
+
+
+
+
+/*responsive for tablet*/
+@media(min-width: 768px) and (max-width: 991px){
+   /*start nav*/
+    .head .nav {
+    padding: 15px 0;
+    background-color: #fdfdfd;
+    border-bottom: 1px solid #94918db0;
+}
+    .head .nav .links ul li {
+    margin: 0 3px;
+    display: inline-block;
+}
+    .head .nav .links {
+    float: right;
+    width: 75%;
+    margin: 5px 5px;
+}
+    /*end nav*/
+    
+    
+    /*start intro*/
+    .head .intro h4 {
+    font-weight: 100;
+    font-size: 40px;
+    color: white;
+}
+    .head .intro p {
+        padding: 10px 0;
+        color: white;
+        font-size: 60px;
+        font-weight: bold;
+        width: 100%;
+}
+    /*end intro*/
+ 
+    
+    /*start hola*/
+    .hola {
+        background-color: #fcbe03;
+        padding: 35px 0;
+    }
+    .hola h5 {
+    float: left;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: serif;
+}
+    .hola button {
+        float: right;
+        width: 20%;
+        /* height: 48px; */
+        background-color: #f0f8ff12;
+        color: white;
+        font-weight: bold;
+        border-color: #f6f6f6;
+        font-size: 20px;
+        border-style: double;
+        padding: 10px 0;
+        margin: -7px -64px;
+    }
+    /*end hola*/
+    
+    
+    
+    /*start about us*/
+    .about {
+    padding: 20px 0;
+    background-color: #e2dedec7;
+}
+    .about .p {
+        font-size: 17px;
+        padding-top: 25px;
+        text-align: center;
+        color: #454343;
+    }
+    .about .row {
+    padding-top: 45px;
+    margin: 0 25px;
+}
+    .about .row .col {
+    padding: 25px 0;
+    border: 1px solid gainsboro;
+    width: 100%;
+    float: left;
+    margin: 2%;
+}
+.about .row .col img {
+    width: 40%;
+    float: left;
+    padding: 10px 10px;
+}
+.about .row .col .info {
+    width: 55%;
+    float: left;
+    text-align: center;
+    padding: 40px 0;
+}
+    .about .row .col .info p{
+    font-size: 15px;
+    padding: 10px 0;
+}
+    /*end about us*/
+    
+    
+    
+    
+    /*start features*/
+    .feature {
+    /* height: 100vh; */
+    padding: 20px 0;
+}
+    .feature h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: darkgray;
+}
+    .feature .row .col {
+    border: 2px solid gainsboro;
+    width: 100%;
+    margin: 15px;
+    float: left;
+    text-align: center;
+    padding: 25px 0;
+}
+    .feature .row .col h2{
+        padding: 20px 0;
+    }
+
+    /*end features*/
+    
+    
+    
+    /*start portfolio*/
+    .portfolio {
+    background-color: #e2dedec7;
+    padding: 20px 0;
+}
+    .portfolio h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: darkgray;
+}
+    .portfolio .row {
+    margin: 25px 5px;
+}
+    /*end portfolio*/
+    
+    
+    
+    
+    /*start part*/
+    .part {
+    margin-top: 20px;
+    padding-top: 15px;
+}
+    .part h2 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: darkgray;
+}
+    .part p {
+    font-size: 20px;
+    width: 100%;
+    padding-left: 0px;
+    text-align: center;
+}
+    .part img {
+    margin-left: 40px;
+    float: left;
+    width: 25%;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+    /*end part*/
+    
+    
+    
+    /*start team*/
+    .team {
+    background-color: #e2dedec7;
+    padding-top: 20px;
+}
+    .team h2 {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: darkgray;
+}
+    .team .row .col {
+    border: 2px solid gainsboro;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin: 5px 5px;
+}
+    /*end team*/
+    
+    
+    
+    
+    
+    
+    /*start contact us*/
+    .contact {
+    background-color: #444141;
+    padding-top: 20px;
+}
+    .contact h2 {
+    color: white;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+    .contact .row .col {
+    border: 2px solid #474141;
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin: 10px 10px;
+}
+    .contact .row .col textarea {
+    width: 100%;
+    height: 140px;
+}
+    /*end contact us*/
+}
+
+
+
+
+
+
+/* for Laptop */
+@media(min-width: 992px) and (max-width: 1199px) {
+    .head .nav .logo img {
+        width: 100%;
+        padding: 2px 0;
+    }
+   .head .nav .links {
+    /* float: left; */
+    width: 75%;
+    margin-left: 12px;
+    }
+    .head .nav .links ul {
+        float: right;
+        margin-left: 10px;
+    }
+        .head .intro h4 {
+        font-weight: 100;
+        font-size: 45px;
+        color: white;
+    }
+    .head .intro p {
+        color: white;
+        font-size: 80px;
+        font-weight: bold;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+
+
+
+
+    .hola {
+    background-color: #fcbe03;
+    /* height: 80px; */
+    padding: 30px 0;
+    /* padding-left: 120px; */
+}
+    .hola h5 {
+    float: left;
+    color: whitesmoke;
+    font-size: 20px;
+    font-family: serif;
+}
+
+
+
+
+.about .row .col {
+    padding: 25px 0px;
+    border: 1px solid gainsboro;
+    width: 42%;
+    float: left;
+    margin: 1%;
+}
+.about .row .col img {
+    width: 40%;
+    float: left;
+    padding: 0 8px;
+}
+.about .row .col .info {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+.feature .row .col {
+    border: 1px solid gainsboro;
+    width: 30%;
+    margin: 5px 2px;
+    float: left;
+    text-align: center;
+    padding: 25px 0;
+}
+.feature .row .col p {
+    font-size: 15px;
+    padding: 10px 5px;
+}
+
+
+
+    .contact .row .col {
+    border: 2px solid #474141;
+    width: 100%;
+    text-align: center;
+    float: left;
+    margin: 10px 10px;
+}
+
+
+}
+
+/*for PC*/
+@media(min-width: 1199px) and (max-width:1370px ){
+    .about .row .col {
+        padding: 25px 18px;
+        border: 2px solid gainsboro;
+        width: 42%;
+        float: left;
+        margin: 1%;
+    }
+
+
+
+
+    .feature .row .col {
+        border: 2px solid gainsboro;
+        width: 26%;
+        margin: 15px;
+        float: left;
+        text-align: center;
+        padding: 25px 10px;
+    }
+}

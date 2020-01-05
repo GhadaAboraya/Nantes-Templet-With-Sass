@@ -1,0 +1,37 @@
+ /*start contact us*/
+ .contact {
+    background-color: $thirdColor;
+    padding-top: 20px;
+        h2 {
+            color:$mainColor;
+            padding-top: 40px;
+            text-align: $text;
+            font-size: 30px;
+        }
+        p {
+            color: $mainColor;
+            text-align: $text;
+            font-size: 17px;
+            padding-top: 20px;
+        }
+        .row{
+            padding: 5px 0;
+            .col {
+                border: 2px solid $thirdColor;
+                width: 100%;
+                text-align: $text;
+                float: left;
+                margin: 10px 10px;
+                textarea {
+                    width: 100%;
+                    height: 140px;
+                }
+                input {
+                    width: 100%;
+                    margin: 10px 5px;
+                    height: 30px;
+                }
+            }
+        }
+} 
+    /*end contact us*/

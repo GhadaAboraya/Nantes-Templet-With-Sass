@@ -1,0 +1,21 @@
+.hola {
+    background-color: #fcbe03;
+    padding: 45px 0;
+    h5 {
+        float: left;
+        color: $mainColor;
+        font-size: 25px;
+        font-family: $font;
+    }
+    button {
+        float: right;
+        width: 20%;
+        background-color: #f0f8ff12;
+        color: $mainColor;
+        font-weight: $weight;
+        border-color: $mainColor;
+        font-size: 20px;
+        border-style: double;
+        padding: 10px 0;
+    }
+}

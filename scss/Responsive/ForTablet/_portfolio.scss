@@ -1,0 +1,16 @@
+ /*start portfolio*/
+ .portfolio {
+    background-color: $backGroundColor;
+    padding: 20px 0;
+         h2 {
+            padding-top: 40px;
+            text-align: $text;
+            font-size: 30px;
+            font-weight: 500;
+            color: $fourthColor;
+        }
+        .row {
+            margin: 25px 5px;
+        }
+} 
+    /*end portfolio*/

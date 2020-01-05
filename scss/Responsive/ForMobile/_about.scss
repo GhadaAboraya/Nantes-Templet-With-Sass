@@ -1,0 +1,47 @@
+/*start about us*/
+.about {
+    padding: $padding;
+    background-color: $backGroundColor;
+    h2 {
+        text-align: $text;
+        font-size: 40px;
+        font-weight: 500;
+        color: $fourthColor;
+    }
+    .p {
+        font-size: 16px;
+        padding-top: 30px;
+        text-align: $text;
+        color: $thirdColor;
+    }
+    .bold {
+        color: $secondColor;
+        font-size: 18px;
+        font-weight: $weight;
+    }
+    .row {
+        padding-top: 60px;
+        margin: 0 auto;
+        width: 100%;
+        .col {
+            border: 2px solid gainsboro;
+            width: 95%;
+            float: none;
+            margin: 0%;
+            img {
+                width: 100%;
+            }
+            .info {
+                width: 100%;
+                float: left;
+                text-align: $text;
+                padding: 20px 0;
+                p {
+                    font-size: 15px;
+                    padding: 15px 0;
+                }
+            }
+        }
+    }
+}
+    /*end about us*/

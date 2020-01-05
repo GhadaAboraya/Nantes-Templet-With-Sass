@@ -1,0 +1,34 @@
+.head{
+    padding: 0;
+    .nav{
+        .links {
+            width: 75%;
+            margin-left: 12px;
+            ul {
+                float: right;
+                margin-left: 10px;
+            }
+        }
+        .logo {
+            img{
+                width: 100%;
+                padding: 2px 0;
+            }
+        }
+    }
+    .intro{
+        padding: $padding;
+         h4 {
+            font-weight: 100;
+            font-size: 45px;
+            color: $mainColor;
+        }
+        p {
+            color: $mainColor;
+            font-size: 80px;
+            font-weight: $weight;
+            width: 100%;
+           padding: 10px 0;
+        }
+    }
+}

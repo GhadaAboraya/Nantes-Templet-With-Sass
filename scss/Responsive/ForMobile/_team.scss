@@ -1,0 +1,28 @@
+ /*start team*/
+ .team {
+    background-color: $backGroundColor;
+    padding: 15px 0;
+        h2 {
+            padding: $padding;
+            text-align: $text;
+            font-size: 30px;
+            font-weight: 500;
+            color: $fourthColor;
+        }
+        p {
+            font-size: 17px;
+            text-align: $text;
+            padding: 12px 0;
+        }
+        .row{
+            padding: 5px 0;
+            .col {
+                border: 2px solid gainsboro;
+                width: 100%;
+                float: left;
+                text-align: $text;
+                margin: 5px 5px;
+            }
+        }
+}
+    /*end team*/

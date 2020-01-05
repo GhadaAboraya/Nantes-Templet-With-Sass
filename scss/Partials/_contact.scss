@@ -1,0 +1,51 @@
+.contact {
+    background-color: $thirdColor;
+    padding: $padding;
+    h2 {
+        color:$mainColor;
+        padding-top: 40px;
+        text-align: $text;
+        font-size: 50px;
+    }
+    p {
+        color: $mainColor;
+        text-align: $text;
+        font-size: 22px;
+        padding-top: 20px;
+    }
+    .row{
+       margin: 20px 5px;
+        .col {
+            border: 2px solid $thirdColor;
+            width: 30%;
+            text-align: $text;
+            float: left;
+            margin: 10px 10px;
+            padding: 20px 0;
+            h4{
+                color: $mainColor;
+                padding: 20px 0px;
+            }
+            p{
+                font-size: 18px;
+                color: $mainColor;
+            }
+            input {
+                width: 45%;
+                margin: 10px 5px;
+                height: 30px;
+            }
+            textarea {
+                width: 95%;
+                height: 140px;
+            }
+            button{
+                width: 150px;
+                height: 54px;
+                background-color: #fcbe03;
+                color: $mainColor;
+                border-style: double;
+            }
+        }
+    }
+}

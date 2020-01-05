@@ -1,0 +1,27 @@
+/*start contact us*/
+.contact {
+    background-color: $thirdColor;
+    padding-top: 20px;
+        h2 {
+            color: $mainColor;
+            padding-top: 30px;
+            text-align: $text;
+            font-size: 50px;
+        }
+        .row{
+            padding: 2px 0; 
+            .col {
+                border: 2px solid #474141;
+                width: 100%;
+                text-align: $text;
+                float: left;
+                margin: 10px 10px;
+                 textarea {
+                    width: 100%;
+                    height: 140px;
+                }
+            }
+        }
+        
+}
+/*end contact us*/

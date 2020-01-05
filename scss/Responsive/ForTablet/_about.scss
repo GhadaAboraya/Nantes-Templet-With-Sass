@@ -1,0 +1,40 @@
+  /*start about us*/
+  .about {
+    padding: 20px 0;
+    background-color: $backGroundColor;
+    .p {
+        font-size: 17px;
+        padding-top: 25px;
+        text-align: center;
+        color: #454343;
+    }
+    .row {
+        padding-top: 45px;
+        margin: 0 25px;
+        .col {
+            padding: 25px 0;
+            border: 2px solid gainsboro;
+            width: 100%;
+            float: left;
+            margin: 2%;
+            img {
+                width: 40%;
+                float: left;
+                padding: 10px 10px;
+            }
+            .info{
+                width: 55%;
+                float: left;
+                text-align: center;
+                padding: 40px 0;
+                p{
+                    font-size: 15px;
+                    padding: 10px 0;
+                }
+            }
+        }
+    }
+}
+    /*end about us*/
+    
+    

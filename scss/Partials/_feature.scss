@@ -1,0 +1,31 @@
+.feature {
+    padding: $padding;
+    h2 {
+        padding-top: 40px;
+        text-align: $text;
+        font-size: 50px;
+        font-weight: 500;
+        color: $fourthColor;
+    }
+    .row {
+        margin: 15px 0;
+        .col {
+            border: 2px solid gainsboro;
+            width: 30%;
+            margin: 15px;
+            float: left;
+            text-align: $text;
+            padding: 25px 0 ;
+            img {
+                width: 50%;
+            }
+            h2 {
+                font-size: 20px;
+                padding: 20px 0;
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
